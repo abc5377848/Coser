@@ -1,0 +1,44 @@
+@import url(bootstrap/css/bootstrap.css);
+body{
+	background-color: #33658A;
+}
+.row-fluid ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 0em;
+    margin-bottom: -200em;
+    margin-left: 0px;
+    margin-right: 0px;
+	background-color: #FFFFFF;
+    border: 3px solid #458F55;
+	border-style:outset;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, "Lucida Grande", "PingFang TC", "蘋果儷中黑", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+	font-size:22px;
+}
+.row-fluid ul a{
+	color: #5e5e5e;
+    text-decoration: none;
+}
+.row-fluid ul a:hover,
+.row-fluid ul a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
+.CA-box{
+	display: block;
+	float: left;
+	text-align: left;
+	background-color: #FFFFFF;
+	border: 3px solid #458F55;
+	font-size: 20px;
+}
+
+.CA-box2 div{
+	float: right;
+    width: 178px;
+    padding: 0 4px;
+    text-align: left;
+    margin: 14px 0px;
+    line-height: 2.0;
+	font-size: 13px;
+}
