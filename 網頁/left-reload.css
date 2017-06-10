@@ -17,7 +17,6 @@ body{
 }
 .row-fluid ul a{
 	color: #5e5e5e;
-    text-decoration: none;
 }
 .row-fluid ul a:hover,
 .row-fluid ul a:focus {
@@ -27,21 +26,23 @@ body{
 
 .CA-box{
 	display: block;
-	float: left;
+	float: center;
 	text-align: left;
 	background-color: #FFFFFF;
 	border: 3px solid #458F55;
 	font-size: 20px;
+	width: 100%;
 }
 
 .CA-box2 div{
-	  float: right;
+	float: left;
     width: 178px;
     padding: 0 4px;
     text-align: left;
-    margin: 14px 0px;
+    margin-left: 51px; 
+	margin-right:0.1%; 
     line-height: 2.0;
-	  font-size: 13px;
+	font-size: 13px;
 }
 
 .headerbutton{

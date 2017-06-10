@@ -6053,12 +6053,14 @@ a.badge:focus {
           border-radius: 23px;
   opacity: 0.5;
   filter: alpha(opacity=50);
+
 }
 
 .carousel-control.right {
   right: 15px;
   left: auto;
 }
+
 
 .carousel-control:hover,
 .carousel-control:focus {
