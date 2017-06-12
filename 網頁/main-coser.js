@@ -50,3 +50,4 @@ $( "#headcircle" ).hover(function(){
 $("#headcircle").mouseout(function(){
   $("#headcircle").css("background-color","rgba(0, 0, 0, 0.5)");
 });
+
