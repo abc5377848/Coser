@@ -51,6 +51,9 @@ $("#headcircle").mouseout(function(){
   $("#headcircle").css("background-color","rgba(0, 0, 0, 0.5)");
 });
 
+<<<<<<< HEAD
 //2017/6/13 文義編寫廣告輪播
 
 //2017/6/13 編寫完成
+=======
+>>>>>>> master

@@ -85,3 +85,8 @@ body{
     border-radius:99em;
     background-color:rgba(0, 0, 0, 0.5);
 }
+
+#headimg{
+  height:500px;
+  width:100%;
+}
