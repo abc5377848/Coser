@@ -90,3 +90,27 @@ body{
   height:500px;
   width:100%;
 }
+
+#logoarea1{
+  position: absolute;
+  top:-12%;
+  left:0%;
+  height:300px;
+  width:400px;
+  background-image:url('http://i.imgur.com/2jAzxEb.png');
+  background-repeat:no-repeat;
+  background-size:95%;
+  z-index: 50; 
+}
+
+#logoarea2{
+  position: absolute;
+  top:6%;
+  left:6.8%;
+  height:300px;
+  width:400px;
+  background-image:url('http://i.imgur.com/GgBMHRn.png');
+  background-repeat:no-repeat;
+  background-size:33%;
+  z-index: 50; 
+}

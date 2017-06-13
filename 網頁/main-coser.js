@@ -50,3 +50,11 @@ $( "#headcircle" ).hover(function(){
 $("#headcircle").mouseout(function(){
   $("#headcircle").css("background-color","rgba(0, 0, 0, 0.5)");
 });
+
+setInterval(function(){
+  $("#logoarea2").fadeOut(1000).fadeIn(1000);
+},0);//投幣區域閃爍
+
+setInterval(function(){
+  $("#logoarea1").fadeOut(1000).fadeIn(1000);
+},0);//投幣區域閃爍
