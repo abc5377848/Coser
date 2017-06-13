@@ -53,23 +53,4 @@ $("#headcircle").mouseout(function(){
 
 //2017/6/13 文義編寫廣告輪播
 
-$(document).ready(function() {
-    $("#myCarousel1").carousel({
-      interval: 6000
-    });
-  });
-  $(document).ready(function(){
-    $(".carousel-control left").click(function(){
-        $("#myCarousel").carousel('cycle');
-    });
-});
-$("#myCarousel1 a.left").click(function () {
-	$("#myCarousel1").carousel("prev");
-});
-
-$("#myCarousel1 a.right").click(function () {
-	$("#myCarousel1").carousel("next");
-});
-
-
 //2017/6/13 編寫完成
