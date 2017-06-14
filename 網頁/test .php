@@ -6,8 +6,8 @@
 	<title>Article Test</title>
 
 
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="dist/css/style.css" rel="stylesheet">
 
 </head>
 <body>
@@ -30,28 +30,44 @@
 					<div class="col-md-2">
 						<div class="btn-group btn-group-vertical btn-group-lg">
 
-							<button class="btn btn-default" type="button">
+							<button class="btn btn-lg btn-default" type="button">
 								<em class=""></em> 官方
 							</button> 
-							<button class="btn btn-default" type="button">
+							<button class="btn btn-lg btn-default" type="button">
 								<em class=""></em> 活動
 							</button> 
-							<button class="btn btn-default" type="button">
+							<button class="btn btn-lg btn-default" type="button">
 								<em class=""></em> 服裝道具
 							</button> 
-							<button class="btn btn-default" type="button">
+							<button class="btn btn-lg btn-default" type="button">
 								<em class=""></em> 化妝彩妝
 							</button>
-							<button class="btn btn-default" type="button">
+							<button class="btn btn-lg btn-default" type="button">
 								<em class=""></em> 場地景點
 							</button>
-							<button class="btn btn-default" type="button">
+							<button class="btn btn-lg btn-default" type="button">
 								<em class=""></em> 廢文
 							</button>
 						</div>
 					</div>
 
 					<div class="col-md-8">
+
+
+						<div class="jumbotron">
+							<h2>
+								【教學】服裝製作基本概念、測量
+							</h2>
+							<p>
+								阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉
+								阿布拉阿布拉阿布拉阿布拉阿布拉
+							</p>
+							<p>
+								<a class="btn btn-primary btn-large" href="#">詳細閱讀</a>
+							</p>
+						</div>
+
+	
 						<?php
 						require_once("dbtools.inc.php");
 
@@ -85,8 +101,9 @@
 	      //將記錄指標移至本頁第一筆記錄的序號
 						mysqli_data_seek($result, $started_record);
 
-
-
+		
+						
+						
       		//顯示記錄
 						$j = 1;
 						while ($row = mysqli_fetch_assoc($result) and $j <= $records_per_page)
@@ -116,19 +133,6 @@
 
 
 						?>
-
-						<div class="jumbotron">
-							<h2>
-								【教學】服裝製作基本概念、測量
-							</h2>
-							<p>
-								阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉阿布拉
-								阿布拉阿布拉阿布拉阿布拉阿布拉
-							</p>
-							<p>
-								<a class="btn btn-primary btn-large" href="#">詳細閱讀</a>
-							</p>
-						</div>
 
 
 
