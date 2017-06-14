@@ -67,27 +67,35 @@
 			<div class="row-fluid">
 				<div class="span2">
 				<!--網站更新&通知-->
-				<ul>
-					<li><a href="" title="詳細說明">網站更新&通知</a></li>
-					<li><a href="" title="詳細說明">最近有非常多壞人出沒請特別小心</a></li>
-					<li><a href="" title="詳細說明">更新1</a></li>
-					<li><a href="" title="詳細說明">更新1</a></li>
-					<li><a href="" title="詳細說明">更新1</a></li>
-					<li><a href="" title="詳細說明">更新1</a></li>
-					<li><a href="" title="詳細說明">更新1</a></li>
-					<li><a href="" title="詳細說明">更新1</a></li>
-				</ul>
+					<ul>
+						<li><a href="" title="詳細說明">網站更新&通知</a></li>
+						<li><a href="" title="詳細說明">最近有非常多壞人出沒請特別小心</a></li>
+						<li><a href="" title="詳細說明">更新1</a></li>
+						<li><a href="" title="詳細說明">更新1</a></li>
+						<li><a href="" title="詳細說明">更新1</a></li>
+						<li><a href="" title="詳細說明">更新1</a></li>
+						<li><a href="" title="詳細說明">更新1</a></li>
+						<li><a href="" title="詳細說明">更新1</a></li>
+					</ul>
 				</div>
 				<!--container-fluid.row-fluid.span2 結束 左邊更新通知-->
 			
 				<div class="span8">
-					<div class = "CA-box" >熱門作品
+					<div class = "CA-box row" >
+							熱門作品
+							<form action="" id = "searchbox" onsubmit = "">
+								<div>
+								<input type = "text" name = "q" size = "20" />
+								<input type = "submit" value = "Search" />
+								</div>
+							</form>
+						<!--6/14 新增熱門作品搜尋列-->
 						<div id="myCarousel1" class="carousel slide">
 											
 							<div class="carousel-inner" role = "listbox">
 								<div class="item active">
 									<div id="firstCA-box2" class = "CA-box2" alt = "first slide">
-										<div >
+										<div>
 											<span>Mon</span>
 											<a href="" >
 											<img src="http://asianbeat.com/files/2016/07/f577b572e9d397.jpg" />
@@ -367,14 +375,14 @@
 				<!--container-fluid.row-fluid.span8 結束 中間熱門作品欄-->
 				
 				<div class="span2">
-					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+					<div id="BRmyCarousel1" class="carousel slide row" data-ride="carousel">
 						<ol class="carousel-indicators">
-								<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-								<li data-target="#myCarousel2" data-slide-to="1"></li>
-								<li data-target="#myCarousel2" data-slide-to="2"></li>
-							</ol>
+								<li data-target="#BRmyCarousel1" data-slide-to="0" class="active"></li>
+								<li data-target="#BRmyCarousel1" data-slide-to="1"></li>
+								<li data-target="#BRmyCarousel1" data-slide-to="2"></li>
+						</ol>
 						<!-- 廣告輪播列表 -->
-						  <div class="carousel-inner" role="listbox">
+						<div class="carousel-inner" role="listbox">
 							<div class="item active">
 								<a href = "http://asianbeat.com/ct/feature/issue_cosplay/cosplayer/taiwan/16/">
 									<img src="http://asianbeat.com/files/2015/11/f563aa27ca09a0.jpg" 
@@ -405,10 +413,45 @@
 									</div>
 								</a>
 							</div>
-						  </div>
+						</div>
+						<a class="carousel-control left" role = "button" href="#BRmyCarousel1" 
+								data-slide="prev">&lsaquo;</a>
+						<a class="carousel-control right" role = "button" href="#BRmyCarousel1" 
+								data-slide="next">&rsaquo;</a>
 					</div>
 					
+					<div id="BRmyCarousel2" class="carousel slide row" data-ride="carousel">
+						<!-- 廣告輪播列表 -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<a href = "https://news.gamme.com.tw/1453884">
+									<img src="https://images.gamme.com.tw/news2/2016/38/84/q5iYpaKVlKCcrqQ.jpg" 
+									href = "https://news.gamme.com.tw/1453884" 
+									data-color="#eee">
+									<div class="carousel-caption">
+										<h3>《Sosenka》化身魔人普烏★這個還原度絕對不科學</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
 					
+					<div id="BRmyCarousel3" class="carousel slide row" data-ride="carousel">
+						<!-- 廣告輪播列表 -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<a href = "http://www.ettoday.net/news/20160813/754741.htm">
+									<img src="http://static.ettoday.net/images/1967/d1967640.jpg" 
+									href = "http://www.ettoday.net/news/20160813/754741.htm" 
+									data-color="#eee">
+									<div class="carousel-caption">
+										<h3>C90的首日吸引了15萬人</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!--container-fluid.row-fluid.span2 結束 旁邊預設廣告-->
 			</div>
 		</div>
