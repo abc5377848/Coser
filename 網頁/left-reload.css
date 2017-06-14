@@ -1,3 +1,4 @@
+
 @import url(bootstrap/css/bootstrap.css);
 body{
 	background-color: #33658A;
@@ -113,4 +114,40 @@ body{
   background-repeat:no-repeat;
   background-size:33%;
   z-index: 50; 
+}
+/* 個人圖像 NAV*/
+.imgArea {
+	width: 150px;
+	height: 150px;
+	margin: 0px;
+	display: inline-block;
+}
+.imgAndNav{
+	display: inline-block;
+	width: 100%;
+}
+.navbar{
+	position: relative;
+	left: 88px;
+	width:50%;
+	margin: 0px;
+	display: inline-block;
+	border-style:solid;
+}
+.navv {
+	margin-left: 100px;
+}
+/*個人檔案*/
+.personal-Info{
+	width: 35%;
+	display: inline-block;
+	border-style:solid;
+}
+.personal-idx-img{
+	width: 20%;
+	display: inline-block;
+	height: 100px;
+	position: relative;
+	top: -100px;
+
 }
