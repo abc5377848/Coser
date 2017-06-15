@@ -136,9 +136,9 @@ body{
 
 /*個人檔案*/
 .personal-Info{
-	width: 64%;
+	width: 150px;
 	display: inline-block;
-	border-style:solid;
+	
 }
 .personal-idx-img{
 	border-style:none;
