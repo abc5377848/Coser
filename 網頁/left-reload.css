@@ -147,7 +147,12 @@ body{
 	position: relative;
 
 }
-
+.img{
+	width:100px;
+	height:200px;
+	background-size:cover;
+	background-position:top center;
+}
 #searchbox{
   margin-left:4%;
 }
