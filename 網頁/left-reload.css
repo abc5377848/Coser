@@ -38,6 +38,7 @@ body{
 .CA-box2 div{
 	float: left;
     width: 180px;
+	height: 280px;
     padding: 0 4px;
     text-align: left;
     margin-left: 51px; 
@@ -45,23 +46,33 @@ body{
     line-height: 2.0;
 	font-size: 13px;
 }
+.CA-box2 a{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.a img{
+	width:100%;
+	height:50%;
+}
 /* 上述為中間熱門作品的css設定，下述為功能列按鈕設定 */
 .headerbutton{
   position: relative;
-  width:350px;
-  top: 0px;
-  left: 50px;
-  padding: 0.5%;
+  display:inline-block;
+  width:12%;
+  height:5%;
+  padding: 0.3%;
   padding-left: 1.5%;
   padding-right: 1.5%;
-  margin-left:-0.1%;
-  margin-right:-0.1%;
   border: 1px solid black;
   background-color:#2F4858;
   font-family:微軟正黑體;
+  font-size: 15px;
   color: white;
   transform: skew(-30deg);
   letter-spacing:2px;
+  opacity: 0.7;
 }
 
 #headdiv{
@@ -72,20 +83,14 @@ body{
 .headerbutton:hover{
   font-weight:bold;
   border-bottom:thick solid #7FB2F0;
+  opacity: 1;
+  cursor: pointer;
 }
 
 .headerbutton div{
     transform: skew(30deg);
 }
 
-.circle_in_black{
-    z-index:100;
-    position:absolute;
-    width:40px;
-    height:40px;
-    border-radius:99em;
-    background-color:rgba(0, 0, 0, 0.5);
-}
 
 #headimg{
   height:500px;
@@ -122,10 +127,6 @@ body{
 	margin: 0px;
 	display: inline-block;
 }
-#personalData{
-	margin-left : 2%;
-	margin-right : -2%;
-}
 
 .navbar{
 	position: relative;
@@ -147,12 +148,16 @@ body{
 	position: relative;
 
 }
+<<<<<<< HEAD
 .img{
 	width:100px;
 	height:200px;
 	background-size:cover;
 	background-position:top center;
 }
+=======
+
+>>>>>>> b0c7fcfc2eb23f9839f75070d627b868328a100a
 #searchbox{
   margin-left:4%;
 }
@@ -190,12 +195,21 @@ body{
   letter-spacing:2px;
   opacity: 0.7;
   text-decoration:underline;
+<<<<<<< HEAD
 }
 
 #registericon{
    margin-left: 20%;
 }
 
+=======
+}
+
+#registericon{
+   margin-left: 20%;
+}
+
+>>>>>>> b0c7fcfc2eb23f9839f75070d627b868328a100a
 .logininfo:hover{
   font-weight:bold;
   border-bottom:thick solid #7FB2F0;
