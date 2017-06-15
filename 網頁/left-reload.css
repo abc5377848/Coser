@@ -232,4 +232,7 @@ body{
   transform: skew(-30deg);
   letter-spacing:2px;
 }
-
+#q{
+	margin-left:-7px; 
+}
+/* 修改該死的 個人頁面飄移問題 */
