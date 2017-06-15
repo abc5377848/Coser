@@ -24,37 +24,11 @@ function mup() {
   drag = false; //解除拖曳狀態
 }
 
-var hdcircleonclicknum=0;
-function hdcircleonclick(){
-  
-  if(hdcircleonclicknum==0){ 
-    document.getElementById("headdiv").innerHTML='<div id="hdbt1" class=headerbutton>  <div>個人空間</div></div><div id="hdbt2"class=headerbutton><div>討論版</div></div><div id="hdbt3" class=headerbutton><div>場次/茶會資訊</div></div><div id="hdbt4"         class=headerbutton><div>工作室資訊</div>       </div><div id="hdbt5" class=headerbutton>     <div>外拍場景資訊</div></div>'
-    hdcircleonclicknum=1;
-   }
-  else if(hdcircleonclicknum==1){
-    $("#hdbt1").fadeOut();
-    $("#hdbt2").fadeOut();
-    $("#hdbt3").fadeOut();
-    $("#hdbt4").fadeOut();
-    $("#hdbt5").fadeOut();
-    hdcircleonclicknum=0;
-  }
-  //淡出
-}
-
-$( "#headcircle" ).hover(function(){
-   $("#headcircle").css("background-color","rgba(0, 0, 0, 1)");
-})
-//hover時變黑
-
-$("#headcircle").mouseout(function(){
-  $("#headcircle").css("background-color","rgba(0, 0, 0, 0.5)");
-});
 
 setInterval(function(){
   $("#logoarea2").fadeOut(1000).fadeIn(1000);
-},0);//投幣區域閃爍
+},0);
 
 setInterval(function(){
   $("#logoarea1").fadeOut(1000).fadeIn(1000);
-},0);//投幣區域閃爍
+},0);
