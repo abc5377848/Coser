@@ -59,15 +59,12 @@ body{
 /* 上述為中間熱門作品的css設定，下述為功能列按鈕設定 */
 .headerbutton{
   position: relative;
-  width:350px;
-  top:0px;
-  left:0px;
   display:inline-block;
-/*   width:12%;
+  width:12%;
   height:5%;
-  padding: 0.3%; */
-  padding-left: -0.1%;
-  padding-right: -0.1%;
+  padding: 0.3%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
   border: 1px solid black;
   background-color:#2F4858;
   font-family:微軟正黑體;
@@ -86,20 +83,14 @@ body{
 .headerbutton:hover{
   font-weight:bold;
   border-bottom:thick solid #7FB2F0;
+  opacity: 1;
+  cursor: pointer;
 }
 
 .headerbutton div{
     transform: skew(30deg);
 }
 
-.circle_in_black{
-    z-index:100;
-    position:absolute;
-    width:40px;
-    height:40px;
-    border-radius:99em;
-    background-color:rgba(0, 0, 0, 0.5);
-}
 
 #headimg{
   height:500px;
@@ -136,10 +127,6 @@ body{
 	margin: 0px;
 	display: inline-block;
 }
-#personalData{
-	margin-left : 2%;
-	margin-right : -2%;
-}
 
 .navbar{
 	position: relative;
@@ -154,17 +141,84 @@ body{
 	border-style:solid;
 }
 .personal-idx-img{
+	border-style:none;
 	width: 100%;
 	display: inline-block;
 	height: 100px;
 	position: relative;
 
 }
-.img {
-	width : 100px;
-	height : 200px;
-	background-size : cover;
-	background-position: top center;
+
+#searchbox{
+  margin-left:4%;
 }
 
+#searchtitle{
+  margin-top:2%;
+  margin-bottom:0.5%;
+  margin-left:4%;
+  font-family: 微軟正黑體;
+  cursor: wait; 
+}
+
+#functionbox{
+  position:absolute;
+  width:60%;
+  margin-top:0.5%;
+  margin-left:47%;
+  z-index: 50; 
+}
+
+.logininfo{
+  position: relative;
+  width:40%;
+  height:5%; 
+  margin-left: 5%;
+  padding: 0.3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 2%;
+  border: 1px solid black;
+  background-color:#2F4858;
+  font-family:微軟正黑體;
+  font-size: 15px;
+  color: white;
+  letter-spacing:2px;
+  opacity: 0.7;
+  text-decoration:underline;
+}
+
+#registericon{
+   margin-left: 20%;
+}
+
+.logininfo:hover{
+  font-weight:bold;
+  border-bottom:thick solid #7FB2F0;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#registericon{
+  margin-left: 12%;
+  margin-top:1.5%;
+}
+
+
+#headerinfo{
+  position: absolute;
+  display:inline-block;
+  left:78%;
+  width:7.5%;
+  padding: 0.3%;
+  padding-left: 0.5%;
+  padding-right: 0%;
+  border: 1px solid black;
+  background-color:#2F4858;
+  font-family:微軟正黑體;
+  font-size: 15px;
+  color: white;
+  transform: skew(-30deg);
+  letter-spacing:2px;
+}
 
