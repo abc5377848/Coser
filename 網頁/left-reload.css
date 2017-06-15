@@ -148,16 +148,14 @@ body{
 	position: relative;
 
 }
-<<<<<<< HEAD
+
 .img{
 	width:100px;
 	height:200px;
 	background-size:cover;
 	background-position:top center;
 }
-=======
 
->>>>>>> b0c7fcfc2eb23f9839f75070d627b868328a100a
 #searchbox{
   margin-left:4%;
 }
@@ -195,21 +193,16 @@ body{
   letter-spacing:2px;
   opacity: 0.7;
   text-decoration:underline;
-<<<<<<< HEAD
 }
+
+
+
 
 #registericon{
    margin-left: 20%;
 }
 
-=======
-}
 
-#registericon{
-   margin-left: 20%;
-}
-
->>>>>>> b0c7fcfc2eb23f9839f75070d627b868328a100a
 .logininfo:hover{
   font-weight:bold;
   border-bottom:thick solid #7FB2F0;
