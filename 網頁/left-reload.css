@@ -233,6 +233,7 @@ body{
   letter-spacing:2px;
 }
 #q{
-	margin-left:-2.1%; 
+	margin-left:-2.1%;
+	margin-top:2%; 
 }
 /* 修改該死的 個人頁面飄移問題 */
