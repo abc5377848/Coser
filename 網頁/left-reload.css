@@ -38,12 +38,23 @@ body{
 .CA-box2 div{
 	float: left;
     width: 180px;
+	height: 280px;
     padding: 0 4px;
     text-align: left;
     margin-left: 51px; 
 	margin-right:0.1%; 
     line-height: 2.0;
 	font-size: 13px;
+}
+.CA-box2 a{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.a img{
+	width:100%;
+	height:50%;
 }
 /* 上述為中間熱門作品的css設定，下述為功能列按鈕設定 */
 .headerbutton{
@@ -138,9 +149,6 @@ body{
 
 }
 
-<<<<<<< HEAD
-=======
-
 #searchbox{
   margin-left:4%;
 }
@@ -213,4 +221,4 @@ body{
   transform: skew(-30deg);
   letter-spacing:2px;
 }
->>>>>>> 調整+新增
+
